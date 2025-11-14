@@ -1,54 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>manisha15</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karpura Pandiselvi | Portfolio</title>
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
-            background: #f5f5f5;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
         }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
         header {
-            background: #222;
+            background: #4a148c;
             color: white;
             text-align: center;
             padding: 80px 20px;
         }
+
+        header h1 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
         nav {
-            background: #111;
-            padding: 10px;
+            background: #26004d;
+            padding: 12px;
             text-align: center;
         }
+
         nav a {
             color: white;
-            margin: 0 15px;
+            margin: 0 18px;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 17px;
+            font-weight: bold;
         }
+
+        nav a:hover {
+            color: #ffd740;
+        }
+
         section {
-            padding: 50px 10%;
+            padding: 60px 10%;
         }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #4a148c;
+        }
+
+        .about p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* Skills */
+        .skills ul {
+            list-style: none;
+            font-size: 18px;
+        }
+
+        .skills li {
+            background: white;
+            margin: 10px 0;
+            padding: 12px;
+            border-left: 6px solid #4a148c;
+        }
+
+        /* Projects */
+        .projects .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+        }
+
         .projects img {
             width: 100%;
-            max-width: 350px;
-            border-radius: 10px;
+            border-radius: 8px;
+            margin-top: 10px;
         }
+
+        /* Contact */
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
         footer {
-            background: #111;
+            background: #26004d;
             color: white;
             text-align: center;
-            padding: 20px 0;
-            margin-top: 30px;
+            padding: 20px;
+            margin-top: 40px;
         }
     </style>
 </head>
 
 <body>
+
     <header>
-        <h1>Your Name</h1>
-        <p>Web Developer • Designer • Programmer</p>
+        <h1>Karpura Pandiselvi</h1>
+        <p>Web Developer | Designer | Creative Thinker</p>
     </header>
 
     <nav>
@@ -58,47 +127,53 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <section id="about">
+    <section id="about" class="about">
         <h2>About Me</h2>
         <p>
-            Write a short description about who you are, what you do, and what makes you unique.
+            Hello! I am <strong>Karpura Pandiselvi</strong>, a passionate and dedicated 
+            developer who loves building clean, modern and user-friendly web interfaces. 
+            I strive to create meaningful digital experiences and continuously improve 
+            my skills in web development and design.
         </p>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="skills">
         <h2>My Skills</h2>
         <ul>
             <li>HTML / CSS / JavaScript</li>
-            <li>React / Node.js</li>
-            <li>Python / C++</li>
-            <li>UI/UX Design</li>
+            <li>Responsive Web Design</li>
+            <li>Python Basics</li>
+            <li>UI/UX Understanding</li>
+            <li>Problem Solving & Creativity</li>
         </ul>
     </section>
 
     <section id="projects" class="projects">
         <h2>Projects</h2>
-        <div>
-            <h3>Project 1 Title</h3>
-            <img src="https://via.placeholder.com/350" alt="Project Image">
-            <p>Short description of your project.</p>
+
+        <div class="card">
+            <h3>Project 1: Personal Portfolio</h3>
+            <p>A simple and elegant portfolio website built using HTML and CSS.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Project Image">
         </div>
 
-        <div>
-            <h3>Project 2 Title</h3>
-            <img src="https://via.placeholder.com/350" alt="Project Image">
-            <p>Short description of your project.</p>
+        <div class="card">
+            <h3>Project 2: Responsive Web Page</h3>
+            <p>A fully responsive webpage that adjusts to all screen sizes.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Project Image">
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
         <h2>Contact</h2>
-        <p>Email: yourname@example.com</p>
-        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        <p>Email: karpurapandiselvi@example.com</p>
+        <p>LinkedIn: linkedin.com/in/karpura-pandiselvi</p>
+        <p>Phone: +91 98765 43210</p>
     </section>
 
     <footer>
-        <p>© 2025 Your Name | All Rights Reserved</p>
+        © 2025 Karpura Pandiselvi | All Rights Reserved
     </footer>
+
 </body>
 </html>
-
